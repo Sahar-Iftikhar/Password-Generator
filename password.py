@@ -37,3 +37,7 @@ if st.button("Generate Password"):
         length, use_digits, use_special
     )  # Call the password generation function
     st.write(f"Generated Password: `{password}`")  # Display the generated password
+
+    st.write("-------------------------------------")
+
+    st.write("**Password Strength: Made with ❤️ by [Sahar Iftikhar]**")
